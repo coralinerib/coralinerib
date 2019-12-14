@@ -1,0 +1,116 @@
+/* Write some CSS below */
+body {
+	color: rgb(200, 200, 200);
+	background: rgb(230,230,230);
+	margin: 0;
+}
+
+h1, h2, h3 {
+	font-family: 'Lilita One', cursive;
+	color: #457B9D;
+	font-weight: 100;
+	}
+
+h1 {
+	size: 50px;
+	}
+
+h2 {
+	size: 24px;
+	}
+
+a {
+	font-family: 'Quicksand', sans-serif;
+	size: 12px;
+	text-decoration: none;
+	color: #E63946;
+	}
+
+p {
+	font-family: 'Quicksand', sans-serif;
+	size: 12px;
+	font-weight: lighter;
+	color: rgba(87, 87, 87, 0.75);
+	}
+
+/* Div styling */
+
+/* Banner */
+
+.banner {
+	text-align: center;
+	text-color: #F6F6F6;
+	background-image: url(https://images.unsplash.com/photo-1554555263-f440a3f535f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80);
+	padding: 120px 0px;
+	background-size: cover;
+	background-position: center;
+	}
+
+.banner h1 {
+	color: #F6F6F6;
+	font-size: 50px;
+	margin-bottom: 10px;
+	}
+
+.banner p {
+	color: #F6F6F6;
+	margin-bottom: 100px;
+	}
+
+/* Button */
+
+.btn-violet {
+	background-color: #4D58FC;
+	color: #FFFFFF;
+	border-radius: 4px;
+	padding: 15px 15px;
+	box-shadow: 0 0px 6px rgb(47, 47, 47)
+	}
+
+.btn-violet:hover {
+	background-color: #363DAF;
+	color: #FFFFFF;
+	border-radius: 4px;
+	padding: 15px 15px;
+	box-shadow: 0 0px 6px rgb(47, 47, 47)
+	}
+
+/* Container */
+
+.white-card {
+	border-radius: 5px;
+	text-align: center;
+	box-shadow: 0 0px 6px rgb(47, 47, 47);
+	margin: 30px 0;
+	padding: 10px;
+	background-color: rgb(255,255,255);
+}
+
+/* Footer */
+
+.footer {
+	background-color: rgb(20,20,20);
+	text-align: center;
+	padding: 5px;
+	}
+
+.footer a {
+	color: #FFFFFF;
+	}
+
+.footer p {
+	color: #FFFFFF;
+	font-size: 12px;
+	padding-bottom: 2px;
+	}
+
+.list-inline {
+	list-style: none; /* pour suprimer les boutons de la liste */
+	padding-left: 0px;
+	font-size: 24px;
+	}	
+
+.list-inline li {
+	display: inline;
+	}	
+
